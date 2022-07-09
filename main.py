@@ -1,4 +1,4 @@
-"""6.009 Lab 10: Snek Is You Video Game"""
+"""Snek Is You Video Game"""
 
 import doctest
 
@@ -598,37 +598,4 @@ if __name__=="__main__":
 
 
     game=Board(level)
-    
-    print(beautify(level), "\n")
     parse_rules(game)
-    
-    # print(parse_rules(game))
-    
-    # level_description = [
-    #                       [["SNEK"], ["IS"], ["YOU"], [], [], ["WALL"], ["IS"], ["STOP"]],
-    #                       [["COMPUTER"], ["IS"], ["PULL"], [], [], ["wall"], [], []],
-    #                       [[], [], [], [], [], ["wall"], [], []],
-    #                       [[], [], [], ["computer"], ["computer"], ["snek", "wall"], [], []],
-    #                       [[], [], [], [], [], ["wall"], [], []],
-    #                       [["computer"], ["computer"], ["computer"], ["snek"], [], [], [], []]
-    #                     ]
-
-
-
-    # game=new_game(level_description)
-    
-    # steps = [
-    #         'right',
-    #         'right',
-    #         'right',
-    #         'up',
-    #         ]
-    
-    # count = 0
-    # print(beautify_level(game))
-    # for step in steps:
-    #     count += 1
-    #     print("step", count, step)
-    #     step_game(game,step) 
-    #     print(beautify_level(game))
-    #     print("\n")
