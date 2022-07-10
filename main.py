@@ -2,10 +2,7 @@
 
 import doctest
 
-# NO ADDITIONAL IMPORTS!
-
-# All words mentioned in lab. You can add words to these sets,
-# but only these are guaranteed to have graphics.
+# Words with graphics
 NOUNS = {"SNEK", "FLAG", "ROCK", "WALL", "COMPUTER", "BUG"}
 PROPERTIES = {"YOU", "WIN", "STOP", "PUSH", "DEFEAT", "PULL"}
 WORDS = NOUNS | PROPERTIES | {"AND", "IS"}
